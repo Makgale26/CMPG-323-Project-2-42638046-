@@ -6756,19 +6756,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\SL301\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_323\\Project2_323.csproj",
+      "projectUniqueName": "C:\\Users\\SL301\\Source\\Repos\\CMPG-323-Project-2-42638046-\\Project2_323\\Project2_323.csproj",
       "projectName": "Project2_323",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_323\\Project2_323.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_323\\obj\\",
+      "projectPath": "C:\\Users\\SL301\\Source\\Repos\\CMPG-323-Project-2-42638046-\\Project2_323\\Project2_323.csproj",
+      "packagesPath": "C:\\Users\\SL301\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SL301\\Source\\Repos\\CMPG-323-Project-2-42638046-\\Project2_323\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SL301\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6776,6 +6781,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6788,11 +6794,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6837,7 +6838,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
