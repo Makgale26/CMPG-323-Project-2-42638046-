@@ -3,7 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Project2_API.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
+
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class TelemetryController : ControllerBase
@@ -96,4 +99,55 @@ public class TelemetryController : ControllerBase
     {
         return _context.JobTelemetries.Any(e => e.Id == id);
     }
+
+    // GET: api/Telemetry/GetSavings
+    [HttpGet("GetSavings")]
+    public async Task<ActionResult<object>> GetSavings(Guid projectId, DateTime startDate, DateTime endDate)
+    {
+        var telemetryData = await _context.JobTelemetries
+            .Where(t => t.ProjectId == projectId && t.EntryDate >= startDate && t.EntryDate <= endDate)
+            .ToListAsync();
+
+        if (!telemetryData.Any())
+        {
+            return NotFound("No telemetry data found for the specified project and date range.");
+        }
+
+        var totalTimeSaved = telemetryData.Sum(t => t.TimeSaved ?? 0);
+        var totalCostSaved = telemetryData.Sum(t => t.CostSaved ?? 0);
+
+        return Ok(new
+        {
+            TotalTimeSaved = totalTimeSaved,
+            TotalCostSaved = totalCostSaved
+        });
+    }
+
+    // GET: api/Telemetry/GetSavingsByClient
+    [HttpGet("GetSavingsByClient")]
+    public async Task<ActionResult<object>> GetSavingsByClient(Guid clientId, DateTime startDate, DateTime endDate)
+    {
+        // Query telemetry data based on ClientId and date range
+        var telemetryData = await _context.JobTelemetries
+            .Where(t => t.ClientId == clientId && t.EntryDate >= startDate && t.EntryDate <= endDate)
+            .ToListAsync();
+
+        // Data does not exist exception
+        if (!telemetryData.Any())
+        {
+            return NotFound("No telemetry  data found for the specified client and date range.");
+        }
+
+        // Calculations
+        var totalTimeSaved = telemetryData.Sum(t => t.TimeSaved ?? 0);
+        var totalCostSaved = telemetryData.Sum(t => t.CostSaved ?? 0);
+
+        // Return the results
+        return Ok(new
+        {
+            TotalTimeSaved = totalTimeSaved,
+            TotalCostSaved = totalCostSaved
+        });
+    }
+
 }

@@ -137,3 +137,4 @@ C:\Users\User\Source\Repos\Makgale26\CMPG-323-Project-2-42638046-\Project2_API\o
 C:\Users\User\Source\Repos\Makgale26\CMPG-323-Project-2-42638046-\Project2_API\obj\Debug\net8.0\Project2_API.genruntimeconfig.cache
 C:\Users\User\Source\Repos\Makgale26\CMPG-323-Project-2-42638046-\Project2_API\obj\Debug\net8.0\ref\Project2_API.dll
 C:\Users\User\Source\Repos\Makgale26\CMPG-323-Project-2-42638046-\Project2_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\User\Source\Repos\Makgale26\CMPG-323-Project-2-42638046-\Project2_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

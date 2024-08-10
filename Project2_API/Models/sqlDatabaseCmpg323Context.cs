@@ -7,12 +7,9 @@ namespace Project2_API.Models
     {
         private readonly IConfiguration _configuration;
 
-        public sqlDatabaseCmpg323Context()
-        {
-        }
+        
 
-        public sqlDatabaseCmpg323Context(DbContextOptions<sqlDatabaseCmpg323Context> options)
-            : base(options)
+        public sqlDatabaseCmpg323Context()
         {
         }
 
