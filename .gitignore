@@ -25,3 +25,9 @@ replay_pid*
 #Exclude .files
 .vs/
 
+##Protect Sensitive Information
+appsettings.json
+secrets.json
+.env
+
+
