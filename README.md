@@ -17,6 +17,16 @@ Before you begin, ensure you have the following:
 ## Getting Started
 
 ### Step 1: Clone the Repository
+
 Clone the GitHub repository to your local machine.
-```bash
-git clone https://github.com/your-username/CMPG-323-Project-2-42638046.git
+
+
+### Step 2 : Create Server Azure
+- log in using NWU credentials
+- create server
+- create server
+### Step 2 : scaffold data source 
+- install MSSMS
+- connect Azure server to MSSMS
+- run Script provided on MSSMS to create required tables
+### Step 3 :  
