@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj": {
+    "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj",
         "projectName": "Project2_API",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\Project2_API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Makgale26\\CMPG-323-Project-2-42638046-\\Project2_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -68,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
