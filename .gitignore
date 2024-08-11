@@ -26,8 +26,7 @@ replay_pid*
 .vs/
 
 ##Protect Sensitive Information
-appsettings.json
-secrets.json
+.json
 .env
 
 
