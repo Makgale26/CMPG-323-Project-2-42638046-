@@ -4,11 +4,11 @@
     public string? ProccesId { get; set; }
     public string? JobId { get; set; }
     public string? QueueId { get; set; }
-   //public Guid? ProjectId { get; set; }  //P
-    //public Guid? ClientId { get; set; }  //P
+    public Guid? ProjectId { get; set; }  //P
+    public Guid? ClientId { get; set; }  //P
     public DateTime EntryDate { get; set; }
-    //public double? TimeSaved { get; set; } //P
-    //public double? CostSaved { get; set; } //P
+    public decimal? TimeSaved { get; set; }//P
+    public decimal? CostSaved { get; set; }//P
     public string? StepDescription { get; set; }
     public int? HumanTime { get; set; }
     public string? UniqueReference { get; set; }

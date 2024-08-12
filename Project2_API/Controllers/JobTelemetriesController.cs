@@ -106,7 +106,7 @@ namespace Project2_API.Controllers
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
 
-        /*// GET: api/JobTelemetries/GetSavingsByProject
+       // GET: api/JobTelemetries/GetSavingsByProject
         [HttpGet("GetSavingsByProject")]
         public async Task<ActionResult> GetSavingsByProject(Guid projectId, DateTime startDate, DateTime endDate)
         {
@@ -142,7 +142,7 @@ namespace Project2_API.Controllers
                 TotalTimeSaved = totalTimeSaved,
                 TotalCostSaved = totalCostSaved
             });
-        }*/
+        }
 
 
 
