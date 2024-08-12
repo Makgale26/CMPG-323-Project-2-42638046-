@@ -6,7 +6,7 @@
     public string? QueueId { get; set; }
     public Guid? ProjectId { get; set; }  //P
     public Guid? ClientId { get; set; }  //P
-    public DateTime EntryDate { get; set; }
+    public DateTime EntryDate { get; set; }  
     public decimal? TimeSaved { get; set; }//P
     public decimal? CostSaved { get; set; }//P
     public string? StepDescription { get; set; }
