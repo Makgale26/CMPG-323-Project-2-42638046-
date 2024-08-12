@@ -106,9 +106,48 @@ namespace Project2_API.Controllers
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
 
-        
+        /*// GET: api/JobTelemetries/GetSavingsByProject
+        [HttpGet("GetSavingsByProject")]
+        public async Task<ActionResult> GetSavingsByProject(Guid projectId, DateTime startDate, DateTime endDate)
+        {
+            var telemetryItems = await _context.JobTelemetries
+                .Where(jt => jt.ProjectId == projectId && jt.EntryDate >= startDate && jt.EntryDate <= endDate)
+                .ToListAsync();
+
+            var totalTimeSaved = telemetryItems.Sum(jt => jt.TimeSaved) ?? 0;
+            var totalCostSaved = telemetryItems.Sum(jt => jt.CostSaved) ?? 0;
+
+            return Ok(new
+            {
+                ProjectId = projectId,
+                TotalTimeSaved = totalTimeSaved,
+                TotalCostSaved = totalCostSaved
+            });
         }
 
+        // GET: api/JobTelemetries/GetSavingsByClient
+        [HttpGet("GetSavingsByClient")]
+        public async Task<ActionResult> GetSavingsByClient(Guid clientId, DateTime startDate, DateTime endDate)
+        {
+            var telemetryItems = await _context.JobTelemetries
+                .Where(jt => jt.ClientId == clientId && jt.EntryDate >= startDate && jt.EntryDate <= endDate)
+                .ToListAsync();
+
+            var totalTimeSaved = telemetryItems.Sum(jt => jt.TimeSaved) ?? 0;
+            var totalCostSaved = telemetryItems.Sum(jt => jt.CostSaved) ?? 0;
+
+            return Ok(new
+            {
+                ClientId = clientId,
+                TotalTimeSaved = totalTimeSaved,
+                TotalCostSaved = totalCostSaved
+            });
+        }*/
+
+
+
     }
+
+}
 
 
