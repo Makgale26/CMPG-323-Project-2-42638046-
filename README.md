@@ -1,8 +1,8 @@
-# CMPG-323-Project-2---42638046-
+
 
 # NWU Tech Trends - Project2_API
 ## Project Overview
-This project is part of the CMPG 323 course and is named "Project2_API." The main objective is to create a RESTful API using .NET 8 and Azure that tracks time and cost savings from automation processes. The API manages telemetry data related to various projects and clients, allowing for efficient performance analysis and reporting.
+ The main objective is to create a RESTful API using .NET 8 and Azure that tracks time and cost savings from automation processes. The API manages telemetry data related to various projects and clients, allowing for efficient performance analysis and reporting.
 
 CRUD Operations: Manage telemetry data with Create, Read, Update, and Delete operations.
 Telemetry Tracking: Capture detailed telemetry data, including time saved and cost saved per project and client.
