@@ -34,7 +34,7 @@ Ensure your database schema is up-to-date by applying migrations.
 
 ## Privacy and Security 
 
-.gitnore is used to ignore all data that contain sensitive information.
+.gitignore is used to ignore all data that contain sensitive information.
 
 
 ## Authentication Setup
