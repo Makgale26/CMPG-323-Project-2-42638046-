@@ -9,8 +9,21 @@ Telemetry Tracking: Capture detailed telemetry data, including time saved and co
 Authentication: Secure the API endpoints using JWT-based authentication.
 Swagger Documentation: Explore and interact with the API using Swagger UI.
 
+## Problem Statement
+### Problem Statement
 
+In today's fast-paced business environment, organizations increasingly rely on automation to enhance efficiency and reduce operational costs. However, tracking the impact of these automation processes—specifically in terms of time saved and cost savings—remains a significant challenge. Many existing solutions lack the capability to effectively manage and analyze telemetry data related to various projects and clients.
 
+The absence of a comprehensive tool leads to inefficiencies in decision-making, as organizations struggle to quantify the benefits of automation initiatives. Additionally, without robust tracking and reporting mechanisms, businesses cannot fully capitalize on their automation investments or identify areas for further improvement.
+
+To address these challenges, we propose the development of a RESTful API using .NET 8 and Azure. This API will facilitate the efficient tracking, management, and analysis of telemetry data related to automation processes, enabling organizations to:
+
+1. **Accurately track time and cost savings**: Provide detailed insights into the effectiveness of automation across various projects and clients.
+2. **Simplify data management**: Enable users to easily create, read, update, and delete telemetry records.
+3. **Enhance security**: Implement JWT-based authentication to safeguard sensitive data.
+4. **Promote usability**: Offer a user-friendly interface via Swagger UI for exploration and interaction with the API.
+
+By addressing these needs, the proposed API will empower organizations to make informed decisions, optimize their automation strategies, and ultimately achieve greater operational efficiency.
 ## Database set up
 
 Set up your SQL Server and create a database named sqlDatabaseCmpg323.
