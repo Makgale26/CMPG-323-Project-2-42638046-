@@ -26,7 +26,7 @@ To address these challenges, we propose the development of a RESTful API using .
 By addressing these needs, the proposed API will empower organizations to make informed decisions, optimize their automation strategies, and ultimately achieve greater operational efficiency.
 ## Database set up
 
-Set up your SQL Server and create a database named sqlDatabaseCmpg323.
+Set up your SQL Server and create a database named Geexpo.
 Update the connection string in the appsettings.json file (not included in version control for security reasons).
 Apply Migrations:
 
